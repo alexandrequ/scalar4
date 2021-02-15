@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Separation_Sequencer</name>
+            <creation-uuid>a1aa75dc-4c1c-45c5-bb06-04746263e2f2</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../libpic33/include</sourceRootElem>
+                <sourceRootElem>../libpic33/src</sourceRootElem>
+                <sourceRootElem>../libpic33/doc</sourceRootElem>
+                <sourceRootElem>include</sourceRootElem>
+                <sourceRootElem>src</sourceRootElem>
+                <sourceRootElem>tests</sourceRootElem>
+                <sourceRootElem>doc</sourceRootElem>
+                <sourceRootElem>../sources_pic/libpic33/src</sourceRootElem>
+                <sourceRootElem>../sources_pic/libpic33/include</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>seq_ssie</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
