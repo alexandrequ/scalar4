@@ -1,0 +1,46 @@
+/**
+ * @file communication_I2C.h
+ * 
+ * @brief functions usefull to communicate in I2C (un fil pour communiquer et une clock).
+ * 
+ * @author Alexis Vandewalle
+ */
+
+
+#ifndef COMMUNICATION_I2C
+#define	COMMUNICATION_I2C
+#include <xc.h> // include processor files - each processor file is guarded.  
+
+/**
+ * @brief a function to initialize the I2C communication
+ */
+void init_I2C1();
+
+/**
+ * @brief a function to send a data to a slave
+ * 
+ * @param slave_add the adress of the slave component, this is a byte
+ * 
+ * @param data an array of byte, this is the data we want to send
+ * 
+ * @param size an int representing the size of the array
+ * 
+ * @return no return 
+ */
+void write_I2C1(uint8_t slave_add,uint8_t *data, int size);
+
+/**
+ * @brief a function to read the data sent by the component
+ * 
+ * @param slave_add a byte representing the adress of the component
+ * 
+ * @param data an array of byte in which we want to store the information
+ * 
+ * @param size an int representing the size of the array
+ * 
+ * @return no return
+ */
+void read_I2C1(uint8_t slave_add, uint8_t *data, int size);
+
+#endif	/* XC_HEADER_TEMPLATE_H */
+
